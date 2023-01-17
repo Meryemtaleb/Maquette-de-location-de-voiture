@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> Rental car project</title>
+</head>
+<body>
+    <header class="flex flex-column">
+        <!--BURGER MENU-->
+        <div class="flex justify-end">
+           <div id="burger_menu" class="flex flex-column align-center justify-center">
+               <div></div>
+               <div></div>
+               <div></div>
+           </div>
+
+        </div>
+
+    <div id="header_renting_part" class="flex flex-column align-center justify-between">
+        <!--TOP PART-->
+        <DIv class="flex flex-column align-center">
+           <div> <h1 class="color_white"> Welcome On Board </h1>
+        </div>
+            <div><p class="color_white">Rental car 24h/24 7/7</p>
+            </div>
+        </DIv>
+        <!--BOTTOM PART-->
+       <div> <form action="#" id="rental_form" class="flex">
+           <div id="pickup_part" class="flex">
+            <select name="RentalSelection" >
+                <option value="none"> Pick-up Location</option>
+                <option value="Paris"> Paris</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Lisbone">Lisbone</option>
+                <option value="Casablanca"> Casablanca</option>
+               
+            </select>
+            <input type="date" placeholder="Pick-up date">
+            <input type="date" placeholder="Drop off date">
+        </div> 
+
+          <div id="submitPart">
+            <input type="submit" value="Validate search">
+
+          </div>  
+        </form>
+        </div>
+    </div>
+    </header>
+
+
+
+
+    <main class="flex flex-column align-center" >
+
+
+        <!--FIRST PART FILTER-->
+        <div id="results" class="flex justify-between">
+            <p>  <span>7</span> Results</p>
+            <form action="#">
+            <select name="Filter">
+                <option value="Order by price">Order by price</option>
+                <option value="Small Cars"> Small Cars</option>
+                <option value="Large Cars">Large Cars</option>
+                <option value="Premium Cars">Premium Cars</option>
+                <option value="Estate Cars">Estate Cars</option>
+            </select>
+        </form>
+            
+        </div>
+
+        <!--CARS-->
+        <!--car 1 -->
+        <div class="car_description flex align-center">
+            <!--LEFT PART-->
+            <div class="flex align-center">
+                <!--LEFT ARROW-->
+                <div class="arro_left " ></div>
+                <div>
+                    <img class="img_outer" src="image/noir.jpg" alt="First vehicule" width="85%" height="185" ></div>
+                    <!--RIGHT ARROW-->
+                    <div class="arro_rigth"></div>
+            </div>
+
+            <!--RIGHT PART-->
+            <div class="car_details">
+                <H4>Peugeot 208</H4>
+                <p>Lorem ipsum dolor sit amet</p>
+                <p>999 $ -Paris Agency</p>
+                <button>Rent and Pay</button>
+            </div>
+        </div>
+        <!--car 2 -->
+        <div class="car_description flex align-center">
+            <!--LEFT PART-->
+            <div class="flex align-center">
+                <!--LEFT ARROW-->
+                <div class="arro_left " ></div>
+                <div>
+                    <img class="img_outer" src="image/bleu.jpg" alt="First vehicule" width="85%" height="185" ></div>
+                    <!--RIGHT ARROW-->
+                    <div class="arro_rigth"></div>
+            </div>
+
+            <!--RIGHT PART-->
+            <div class="car_details">
+                <H4>Peugeot 208</H4>
+                <p>Lorem ipsum dolor sit amet</p>
+                <p>999 $ -Paris Agency</p>
+                <button>Rent and Pay</button>
+            </div>
+        </div>
+        <!--car 3-->
+        <div class="car_description flex align-center">
+            <!--LEFT PART-->
+            <div class="flex align-center">
+                <!--LEFT ARROW-->
+                <div class="arro_left " ></div>
+                <div>
+                    <img class="img_outer" src="image/gris.jpg" alt="First vehicule" width="85%" height="185" ></div>
+                    <!--RIGHT ARROW-->
+                    <div class="arro_rigth"></div>
+            </div>
+
+            <!--RIGHT PART-->
+            <div class="car_details">
+                <H4>Peugeot 208</H4>
+                <p>Lorem ipsum dolor sit amet</p>
+                <p>999 $ -Paris Agency</p>
+                <button>Rent and Pay</button>
+            </div>
+        </div>
+        <!--car 4 -->
+        <div class="car_description flex align-center">
+            <!--LEFT PART-->
+            <div class="flex align-center">
+                <!--LEFT ARROW-->
+                <div class="arro_left " ></div>
+                <div>
+                    <img class="img_outer" src="image/blanc.jpg" alt="First vehicule" width="85%" height="185" ></div>
+                    <!--RIGHT ARROW-->
+                    <div class="arro_rigth"></div>
+            </div>
+
+            <!--RIGHT PART-->
+            <div class="car_details">
+                <H4>Peugeot 208</H4>
+                <p>Lorem ipsum dolor sit amet</p>
+                <p>999 $ -Paris Agency</p>
+                <button>Rent and Pay</button>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+
+
+
+    <footer class="flex justify-center">
+        <img src="image/bulva.jpg" alt="The Agency">
+        <ul>
+            <li><p>Our Agency</p></li>
+            <li><p>300 Boulevard de vaugirard 75015 Paris</p></li>
+            <li><p>opened 24h/24 7/7 between 14h and 20h</p></li>
+            <li><p>01 02 03 04 10</p></li>
+            <li><p>contact@mail.com</p></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
